@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="AI-powered text summarization using Google Gemini."
+    >
+
+    <title>AI Text Summarization — NLP Engine</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="page">
+
+    <!-- HEADER -->
+    <header class="topbar">
+
+        <div class="brand">
+
+            <div class="brand-logo">
+                AI
+            </div>
+
+            <div class="brand-text">
+
+                <h1>
+                    TEXT SUMMARIZATION
+                </h1>
+
+                <p>
+                    AI Powered NLP Engine
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="engine-status">
+            <span class="status-dot"></span>
+            NLP ENGINE ONLINE
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero">
+
+        <div class="hero-copy">
+
+            <div class="eyebrow">
+                GEMINI AI · NLP
+            </div>
+
+            <h2>
+                Turn long text into
+                <span>clear knowledge.</span>
+            </h2>
+
+            <p>
+                Paste your text, connect your own Gemini API key,
+                choose a summarization mode and generate an AI-powered
+                summary without storing your API key on this website.
+            </p>
+
+        </div>
+
+
+        <div class="hero-orbit">
+
+            <div class="orbit">
+                <div class="orbit-dot one"></div>
+            </div>
+
+            <div class="orbit two">
+                <div class="orbit-dot two"></div>
+            </div>
+
+            <div class="orbit three">
+                <div class="orbit-dot three"></div>
+            </div>
+
+            <div class="core">
+                ✦
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- GEMINI API KEY GUIDE -->
+    <section class="api-guide">
+
+        <div class="api-guide-title">
+            Need a <span>Gemini API key?</span>
+        </div>
+
+        <div class="api-guide-subtitle">
+            Get it from Google AI Studio in a few clicks.
+        </div>
+
+        <div class="guide-flow">
+
+            <!-- STEP 1 -->
+            <div class="guide-step">
+
+                <div class="step-number">1</div>
+
+                <div class="fake-screen">
+                    <div class="fake-top">
+                        <span class="fake-dot"></span>
+                        Google AI Studio
+                    </div>
+
+                    <div class="fake-body">
+                        <div class="fake-sidebar">
+                            <div class="fake-menu">⌂ Home</div>
+                            <div class="fake-menu">▣ Build</div>
+                            <div class="fake-menu">◉ Open models</div>
+                            <div class="fake-menu active">🔑 API Keys</div>
+                            <div class="fake-menu">▣ Billing</div>
+                        </div>
+
+                        <div class="fake-content">
+                            <div class="fake-heading">API Keys</div>
+                            <div class="fake-small">
+                                Create and manage your API keys for Gemini and other Google services.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-title">
+                    Open Google AI Studio
+                </div>
+
+                <div class="step-text">
+                    Open AI Studio and go to the API Keys page.
+                </div>
+
+            </div>
+
+
+            <!-- ARROW -->
+            <div class="guide-arrow">→</div>
+
+
+            <!-- STEP 2 -->
+            <div class="guide-step">
+
+                <div class="step-number">2</div>
+
+                <div class="fake-screen">
+                    <div class="fake-top">
+                        <span class="fake-dot"></span>
+                        API Keys
+                    </div>
+
+                    <div class="fake-body">
+                        <div class="fake-content full">
+                            <div class="fake-heading">API Keys</div>
+                            <div class="fake-small">
+                                Create a new API key to use with Gemini and other Google services.
+                            </div>
+
+                            <div class="fake-button">
+                                ＋ Create API key
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-title">
+                    Click Create API key
+                </div>
+
+                <div class="step-text">
+                    Create a new Gemini API key from your Google AI Studio project.
+                </div>
+
+            </div>
+
+
+            <!-- ARROW -->
+            <div class="guide-arrow">→</div>
+
+
+            <!-- STEP 3 -->
+            <div class="guide-step">
+
+                <div class="step-number">3</div>
+
+                <div class="fake-screen">
+                    <div class="fake-top">
+                        <span class="fake-dot"></span>
+                        API key created
+                    </div>
+
+                    <div class="fake-body">
+                        <div class="fake-content full">
+                            <div class="fake-heading">API key created</div>
+                            <div class="fake-small">
+                                Your API key has been generated. Copy it now and store it securely.
+                            </div>
+
+                            <span class="fake-key">
+                                AQzaSy••••••••••••••
+                            </span>
+
+                            <span class="fake-button copy-button">
+                                ▣ Copy
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="step-title">
+                    Copy your API key
+                </div>
+
+                <div class="step-text">
+                    Copy the key and paste it into the Gemini API Key box below.
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <a
+            class="open-ai-btn"
+            href="https://aistudio.google.com/apikey"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            ↗ Open Google AI Studio
+        </a>
+
+        <div class="guide-note">
+            Create key → copy key → paste it into the API Key box → click CONNECT.
+        </div>
+
+    </section>
+
+
+    <!-- WORKSPACE -->
+    <main class="workspace">
+
+
+        <!-- LEFT -->
+        <section class="panel">
+
+            <div class="panel-header">
+
+                <div>
+                    <div class="panel-title">
+                        Source Text
+                    </div>
+
+                    <div class="panel-subtitle">
+                        Paste the content you want to summarize
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="panel-body">
+
+                <!-- API KEY -->
+                <div style="margin-bottom: 18px;">
+
+                    <div class="panel-title" style="margin-bottom: 8px;">
+                        Gemini API Key
+                    </div>
+
+                    <div class="key-box">
+
+                        <input
+                            id="apiKey"
+                            type="password"
+                            autocomplete="off"
+                            placeholder="Paste your Gemini API key"
+                        >
+
+                        <button
+                            class="primary-btn"
+                            id="connectBtn"
+                            onclick="connectGemini()"
+                        >
+                            CONNECT
+                        </button>
+
+                    </div>
+
+                    <div
+                        id="keyMessage"
+                        class="key-message"
+                    >
+                        Your key is used only for API requests and is not saved by this interface.
+                    </div>
+
+                </div>
+
+
+                <!-- SOURCE TEXT -->
+                <div class="textarea-wrap">
+
+                    <textarea
+                        id="sourceText"
+                        placeholder="Paste an article, notes, lecture, documentation, research text or any other content here..."
+                        oninput="updateStats()"
+                    ></textarea>
+
+                </div>
+
+
+                <div class="stats">
+
+                    <div class="stat">
+                        Words:
+                        <strong id="wordCount">0</strong>
+                    </div>
+
+                    <div class="stat">
+                        Characters:
+                        <strong id="charCount">0</strong>
+                    </div>
+
+                    <div class="stat">
+                        Sentences:
+                        <strong id="sentenceCount">0</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="action-row">
+
+                    <button
+                        class="secondary-btn"
+                        onclick="loadSample()"
+                    >
+                        LOAD SAMPLE
+                    </button>
+
+                    <button
+                        class="secondary-btn"
+                        onclick="clearSource()"
+                    >
+                        CLEAR
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- RIGHT -->
+        <section class="panel">
+
+            <div class="panel-header">
+
+                <div>
+
+                    <div class="panel-title">
+                        AI Summary
+                    </div>
+
+                    <div class="panel-subtitle">
+                        Select a mode and generate your summary
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="panel-body">
+
+                <div class="mode-grid">
+
+                    <button
+                        class="mode-btn active"
+                        data-mode="short"
+                        onclick="selectMode(this)"
+                    >
+                        SHORT
+                    </button>
+
+                    <button
+                        class="mode-btn"
+                        data-mode="detailed"
+                        onclick="selectMode(this)"
+                    >
+                        DETAILED
+                    </button>
+
+                    <button
+                        class="mode-btn"
+                        data-mode="bullet"
+                        onclick="selectMode(this)"
+                    >
+                        BULLETS
+                    </button>
+
+                    <button
+                        class="mode-btn"
+                        data-mode="exam"
+                        onclick="selectMode(this)"
+                    >
+                        EXAM NOTES
+                    </button>
+
+                </div>
+
+
+                <div
+                    id="output"
+                    class="output-area"
+                >
+
+                    <div class="output-placeholder">
+                        Your AI-generated summary will appear here.
+                    </div>
+
+                </div>
+
+
+                <div
+                    id="resultStats"
+                    class="result-stats"
+                    style="display:none;"
+                >
+
+                    <div class="result-stat">
+                        <span>Original</span>
+                        <strong id="originalWords">0</strong>
+                    </div>
+
+                    <div class="result-stat">
+                        <span>Summary</span>
+                        <strong id="summaryWords">0</strong>
+                    </div>
+
+                    <div class="result-stat">
+                        <span>Saved</span>
+                        <strong id="savedWords">0</strong>
+                    </div>
+
+                    <div class="result-stat">
+                        <span>Reduction</span>
+                        <strong id="reduction">0%</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="action-row">
+
+                    <button
+                        id="summarizeBtn"
+                        class="summarize-btn"
+                        onclick="summarize()"
+                    >
+                        GENERATE SUMMARY
+                    </button>
+
+                </div>
+
+
+                <div class="action-row">
+
+                    <button
+                        class="secondary-btn"
+                        onclick="copySummary()"
+                    >
+                        COPY SUMMARY
+                    </button>
+
+                    <button
+                        class="secondary-btn"
+                        onclick="downloadSummaryPDF()"
+                    >
+                        DOWNLOAD PDF
+                    </button>
+
+                    <button
+                        class="secondary-btn"
+                        onclick="downloadText()"
+                    >
+                        DOWNLOAD TXT
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-left">
+            <span class="footer-brand">TEXT SUMMARIZATION</span>
+            <span class="footer-dot">•</span>
+            <span class="footer-engine">AI Powered NLP Engine</span>
+            <span class="footer-dot">•</span>
+            <span class="footer-engine">gemini-3.8-flash</span>
+        </div>
+
+        <div class="footer-right">
+            <span>Designed &amp; Built by</span>
+
+            <a
+                class="footer-signature"
+                href="https://sk-maaz243.github.io/Sk_Maaz/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open sk_maaz portfolio"
+            >
+                𝓼𝓴_𝓶𝓪𝓪𝔃
+            </a>
+
+            <span class="footer-dot">•</span>
+            <span id="footerDate"></span>
+        </div>
+
+    </footer>
+
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
